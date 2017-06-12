@@ -1,82 +1,82 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #B1D1AA;
+}
 .container
 {
 	display: block;
 	border: 0px solid;
 	margin: auto;
+	width: 1100px;
 }
 .section
 {
 	margin-top: 10px;
 	display: block;
 	border: 3px solid lightgray;
-	height: 600px;
+	min-height: 500px;
+	background-color: white;
+}
+#big
+{
+	height: 650px;
+}
+#big2{	height: 850px;}
+#big3{	height: 750px;}
+#big4{	height: 850px;}
+
+.bg
+{
+	display: block;
+	float: left;
+	width: 600px;
+	height: 350px;
+	margin: 5px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
+
+#real1 {background-image: url("real1.jpg");  width: 350px; height: 350px; margin-left: -200px; margin-top: -90px;}
+#real2 {background-image: url("real2.jpg");  width: 300px; height: 300px; margin-left: 10px; margin-top: -20px;}
+#real3 {background-image: url("real3.jpg");  width: 350px; height: 350px;}
+#real4 {background-image: url("real4.jpg");  width: 350px; height: 350px; margin-left: 110px; margin-top: -140px;}
+
 #postup {background-image: url("postup.jpg");  }
 #atmosphere {background-image: url("atmosphere.jpg");  }
-#poseshenie {background-image: url("poseshenie.jpg");  }
+#poseshenie {background-image: url("poseshenie.jpg"); margin-left: 10px; margin-top: -70px; }
+#poseshenie1 {background-image: url("poseshenie1.jpg");  }
+#kulisi {background-image: url("kulisi.jpg");  }
+#kulisi1 {background-image: url("kulisi1.jpg");  width: 500px; height: 500px; margin-top: 130px;}
+#kulisi2 {background-image: url("kulisi2.jpg");  width: 500px; height: 500px; margin-left: -50px;margin-top: -20px;}
+
+#work {background-image: url("work.jpg");  }
+#people {background-image: url("people.jpg");  }
+#festival {background-image: url("festival.JPG");  }
+#festival2 {background-image: url("festival2.JPG");  width: 300px; height: 500px;margin-left: 280px; margin-top: -40px;}
 
 .section_head
 {
 	display: block;
-	position: relative;
-	padding: 20px;
+	clear: both;
+	height: 100px;
+	padding: 5px;
 	text-align: center;
-	font-size: 30pt;
-	color: whitesmoke;
-	text-shadow: 1px 1px 2px black, 0 0 1em gray; /* Параметры тени */
+	font-size: 60pt;
+	color: dimgrey;
 }
 .section_text
 {
 	display: block;
-	position: relative;
-	padding: 150px;
+	float: left;
+	height: 300px;
+	width: 400px;
 	text-align: center;
-	font-size: 25pt;
-	color: cornflowerblue;
-	font-style: italic;
-	text-shadow: 1px 1px 2px black, 0 0 1em gray; /* Параметры тени */
-/*	background-color: white;
-	opacity: 0.5;
-	border-radius: 20px;*/
-}
-.table
-{
-	display: block;
-	border: 1px solid;
-	width: 100%;
-	height: 500px;
-}
+	font-size: 20pt;
+	padding: 5px;
 
-.vidget
-{
-	display: block;
-	border: 3px solid coral;
-	width: 100px;
-	height: 100px;
-	position: absolute;
-}
-
-.header
-{
-	display: block;
-	width: 100%;
-	height: 54px;
-	background:  #262626;
-}
-.logo
-{
-	display: block;
-	height: 100%;
-	width: 20%;
-}
-.logo img
-{
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-left: 2px;
-	width: 50px;
-	height: 50px;
 }
